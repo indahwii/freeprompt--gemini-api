@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import './styles/freePrompt.css'
 
 const FreePrompt = () => {
-    const genAI = new GoogleGenerativeAI('AIzaSyBx_K9dLEhLzm4eC8mnip6cBlFNChmOxfA');
+    const genAI = new GoogleGenerativeAI('API_KEY');
 
     const [search, setSearch] = useState('');
     const [aiResponse, setResponse] = useState('');
